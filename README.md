@@ -1,1 +1,0 @@
-# EduWiz-Student-Portal
