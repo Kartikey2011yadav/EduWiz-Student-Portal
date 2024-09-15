@@ -1,0 +1,36 @@
+.navbar
+{
+    width: 125px;
+    height: 100vh;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    color: black;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-contents
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.navbar-icons
+{
+    color: #23538f;
+    font-size: 40px;
+}
+.navbar-text
+{
+    text-align: center;
+    font-weight: 400;
+}
+.navbar-contents:hover,.navbar-icons:hover
+{
+    color: black;
+    cursor: pointer;
+}
