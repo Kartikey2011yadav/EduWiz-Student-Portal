@@ -1,0 +1,42 @@
+.video-container
+{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.video-heading
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 50px 0 0 80px;
+}
+.video
+{
+    display: flex;
+    gap: 40px;
+    margin: 30px 0 0 80px;
+    background-color: #d9d9d9;
+    width: 1200px;
+    height: 125px;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+}
+.video-icon
+{
+    font-size: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.video-question
+{
+    font-weight: 500;
+}
+.video-level
+{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #ff0000;
+    font-weight: 600;
+    font-size: 20px;
+}
