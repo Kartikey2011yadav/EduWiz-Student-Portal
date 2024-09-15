@@ -19,7 +19,7 @@ const Navbar=()=>
                     </div>
                     <div className="navbar-text">Student Profile</div>
                 </div>
-                <div className="navbar-contents">
+                <div className="navbar-contents" onClick={()=>{navigate("/studymaterial")}}>
                     <div className="navbar-icons">
                         <FaBookOpenReader />
                     </div>
